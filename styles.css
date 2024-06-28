@@ -1,0 +1,646 @@
+body {
+    background: linear-gradient(to right, #c5c5c5, #efefef);
+    margin: 0;
+    padding: 0;
+    font-family: 'Actor';
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.logo {
+    font-family: 'Almendra Display';font-size: 24px;
+    color: #333;
+}
+
+
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+nav ul li a.active, nav ul li a:hover {
+    color: #aaa;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    height: calc(100vh - 80px); 
+    padding: 20px;
+}
+
+.right-section {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.profile-pic {
+    padding: 10px;
+    background: (#515050);
+    max-width: 800px;
+    display: block;
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;;
+}
+
+.left-section {
+    flex: 1;
+    padding: 50px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+}
+
+.text {
+    max-width: 500px;
+    margin-left: 20px;
+}
+
+.text h1 {
+    font-size: 48px;
+    margin: 0;
+    color: #333;
+}
+
+.text h1 span {
+    color: #000000;
+    font-family: 'Bowlby One SC'; font-size: 100px;
+}
+
+.text h2 {
+    font-size: 32px;
+    margin: 10px 0;
+    color: #8c8c8c;
+}
+
+.text h2 span {
+    color: #5a5a5a;
+    font-family: 'Bruno Ace';
+}
+
+.text p {
+    font-size: 22px;
+    margin: 20px 0;
+    color: #666;
+    font-family: 'Averia Gruesa Libre';
+
+}
+
+.hire-me {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    margin-bottom: 20px; 
+}
+
+.hire-me:hover {
+    background-color: #aaa;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.social-icons a {
+    color: #000000;
+    margin: 0 10px;
+    font-size: 24px;
+    transition: transform 0.3s, color 0.3s;
+}
+
+.social-icons a:hover {
+    transform: scale(1.2);
+    color: #aaa;
+}
+
+
+
+section h2 {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+body {
+    background:  linear-gradient(to right, #7e7e7e, #dcdcdc);
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.education {
+    max-width: 800px;
+    margin: 80px auto;
+    padding: 0 20px;
+   
+}
+
+.education h1 {
+    font-size: 36px;
+    color: #3d3d3d;
+    text-align: center;
+    margin-bottom: 50px;
+    font-family: 'Black Han Sans';
+    
+}
+
+.education-item {
+    display: flex;
+    align-items: center;
+    background: #686868;
+    border-radius: 6px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.education-icon {
+    width: 60px;
+    height: 60px;
+    margin-right: 20px;
+}
+
+.education-content h2 {
+    font-size: 24px;
+    color: #262626;
+    font-family: 'Black Ops One';
+}
+
+.education-content p {
+    font-size: 18px;
+    color: #ffffff;
+    font-family: 'Averia Gruesa Libre';
+}
+
+body {
+    background:  linear-gradient(to right, #7e7e7e, #dcdcdc);
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.curricular-section {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.heading {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    font-family: 'Black Han Sans';
+}
+
+.curricular-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+.curricular-box {
+    background-color: #2e2e2e;
+    border-radius: 10px;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.3s ease;
+    padding: 1rem;
+}
+
+.curricular-box:hover {
+    transform: scale(1.05);
+}
+
+.curricular-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;  
+    background-color: #9f9d9d;
+}
+
+.curricular-box span {
+    color: #fff;
+    font-size: 1.2rem;
+    margin-top: 0.5rem;
+    font-family: 'Alegreya SC';font-size: 22px;
+}
+
+body {
+    background:  linear-gradient(to right, #7e7e7e, #dcdcdc);
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.skills-container {
+    padding: 100px;
+    text-align: center;
+}
+
+.skills-container h2 {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 50px;
+    position: relative;
+    font-family: 'Black Han Sans';
+}
+
+.skills-container h2::after {
+    content: '';
+    position: absolute;
+    width: 100px;
+    height: 4px;
+    background-color: #333;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -10px;
+}
+
+.skills {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.skill {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.skill p {
+    flex: 1;
+    color: #333;
+    margin: 0;
+    font-family: 'Antonio';;
+}
+
+.progress {
+    flex: 3;
+    background-color: #e0e0e0;
+    border-radius: 20px;
+    margin: 0 20px;
+    height: 20px;
+    overflow: hidden;
+}
+
+.progress-bar {
+    height: 100%;
+    background-color: #333;
+}
+
+.skill span {
+    flex: 0 0 50px;
+    color: #333;
+    text-align: right;
+}
+
+body {
+    background:  linear-gradient(to right, #7e7e7e, #dcdcdc);
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.experience-container h2 {
+    font-family: 'Black Han Sans';
+}
+
+.experience-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+.experience-box {
+    background-color: #898989; 
+    border: 1px solid #8a8a8a;
+    border-radius: 10px;
+    width: 250px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(41, 41, 41, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.experience-box:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.experience-box h3 {
+    margin: 0;
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+    color: #3e3e3e;
+    font-family: 'Black Ops One';
+}
+
+.experience-box p {
+    margin: 0;
+    font-size: 1rem;
+    color: #ffffff; 
+    font-family: 'Averia Gruesa Libre';
+}
+
+.student-details-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 80px);
+}
+
+body {
+    background:  linear-gradient(to right, #7e7e7e, #dcdcdc);
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.student-card {
+    background-color: #565656;
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    text-align: center;
+    width: 300px;
+}
+
+.university-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.university-logo {
+    width: 200px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.student-card img.student-photo {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+
+.student-card h2 {
+    font-size: 24px;
+    color: #fff;
+    margin: 10px 0;
+    font-family: 'Cinzel Decorative';
+}
+
+.student-card h3 {
+    font-size: 20px;
+    color: #fff;
+    margin: 5px 0;
+    font-family: 'Cinzel Decorative';
+}
+
+.student-card p {
+    font-size: 16px;
+    color: #dfdede;
+    margin: 5px 0;
+    font-family: 'Cagliostro';
+}
+
+.student-card p strong {
+    color: #000000;
+    font-family: 'Boogaloo';
+}
+
+
+.student-card p a:hover {
+    text-decoration: underline;
+}
+
+#contact {
+    padding: 50px 20px;
+    background: linear-gradient(to right, #adadad, #eaeaea);
+    color: #fff;
+}
+
+body {
+    background: linear-gradient(to right, #adadad, #eaeaea);
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+#contact h2 {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 20px;
+    font-family: 'Black Han Sans';
+}
+
+.contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form label {
+    font-size: 16px;
+    margin-bottom: 5px;
+    color: #1f1f1f;
+    font-family: 'Averia Gruesa Libre';
+}
+
+.contact-form input,
+.contact-form textarea {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: #848383;
+    color: #ffffff;
+    font-family: 'Averia Gruesa Libre';
+}
+
+.contact-form button {
+    padding: 10px 20px;
+    background-color: #fff;
+    color:  #1f1f1f;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #ddd;
+}
+
+footer {
+    background: rgb(38, 38, 38);
+    color: #fff;
+    padding: 20px 0;
+    text-align: left;
+    font-size: 14px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer-section {
+    flex: 1;
+    padding: 20px;
+}
+
+.footer-section h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #ffffff;
+}
+
+.footer-section p {
+    font-size: 14px;
+    line-height: 1.6;
+    color: #aaa;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 10px;
+    color: #aaa;
+}
+
+.footer-section ul li a {
+    color: #aaa;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer-section ul li a:hover {
+    color: #fff;
+}
+
+.footer-section .social-icons a {
+    color: #aaa;
+    margin-right: 10px;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+.footer-section .social-icons a:hover {
+    color: #fff;
+}
+
+.footer-bottom {
+    
+    background: #aaa;
+    color: #020202;
+    text-align: center;
+    padding: 10px;
+    font-size: 12px;
+    border-top: 1px solid #aaa;
+}
